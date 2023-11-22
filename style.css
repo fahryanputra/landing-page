@@ -20,14 +20,14 @@ body {
     align-items: center;
 }
 
-.logo {
+.logo, .action-header {
     font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
     flex: auto;
 }
 
-.header-text {
+.header-text, .action-subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -154,4 +154,19 @@ button {
     font-size: 23px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.action-call {
+    display: flex;
+    background-color: #3882f6;
+    margin: 5rem;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 8rem;
+}
+
+.action-call > .signup {
+    border: 2px solid white;
+    margin-left: auto;
 }

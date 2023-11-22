@@ -128,3 +128,30 @@ button {
     text-align: center;
     flex: none;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 50rem;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 23px;
+    font-weight: bold;
+    align-self: flex-end;
+}

@@ -27,7 +27,7 @@ body {
     flex: auto;
 }
 
-.header-text, .action-subtext {
+.header-text, .action-subtext, .footer-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -169,4 +169,12 @@ button {
 .action-call > .signup {
     border: 2px solid white;
     margin-left: auto;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
 }
